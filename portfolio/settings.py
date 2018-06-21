@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
-		'USER': 'eduardo',
-		'PASSWORD': 'z0rr0527',
+		'USER': '',
+		'PASSWORD': '',
 		'HOST': 'localhost',
 		'PORT': '5432',
     }
@@ -123,7 +123,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 STATICFILES_DIRS = [
-	os.path.join(BASE_DIR, 'portfolio/static/')
+	os.path.join(BASE_DIR, 'portfolio/static')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
